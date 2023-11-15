@@ -1,14 +1,110 @@
 {
   "users": [
     {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend."
+      "username": "fares",
+      "password": "1",
+      "favorites": [
+        872585,
+        609681,
+        939335,
+        507089
+      ],
+      "lists": [
+        {
+          "listName": "list 1",
+          "listId": "17b004e7-b4f8-47b1-995e-fc60dfc0f2cf",
+          "movies": []
+        },
+        {
+          "listName": "list 2",
+          "listId": "d51ff458-c3f2-44d4-92c3-f151c35f3c28",
+          "movies": [
+            575264
+          ]
+        },
+        {
+          "listName": "list 3",
+          "listId": "de796710-df2c-4156-bb69-198879162770",
+          "movies": [
+            575264,
+            507089
+          ]
+        },
+        {
+          "listName": "list 4",
+          "listId": "4aff45ff-4d29-498b-8d05-7e037cc1b70f",
+          "movies": [
+            575264,
+            872585,
+            609681,
+            939335,
+            507089
+          ]
+        }
+      ],
+      "watchlists": [
+        507089,
+        609681,
+        872585
+      ],
+      "id": "cd2ec69f-fd21-4597-ad6f-f6a33fe60629"
     },
     {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack."
+      "username": "mariana",
+      "password": "1",
+      "favorites": [
+        575264
+      ],
+      "lists": [],
+      "watchlists": [
+        575264
+      ],
+      "id": "358044f4-4758-48ca-8d92-cf8fab14dd94"
+    },
+    {
+      "username": "2",
+      "password": "e",
+      "favorites": [],
+      "lists": [],
+      "watchlists": [],
+      "id": "bb2ce6ec-504d-4006-9049-60b43c732da0"
+    }
+  ],
+  "comments": [
+    {
+      "id": 575264,
+      "userComments": [
+        {
+          "name": "sdasdas",
+          "comment": "dkjsadas",
+          "userId": "358044f4-4758-48ca-8d92-cf8fab14dd94",
+          "date": "13/10/2023",
+          "commentId": "cd2bd28e-460c-408e-bb91-a67c0057cbac"
+        },
+        {
+          "name": "fares",
+          "comment": "123",
+          "userId": "cd2ec69f-fd21-4597-ad6f-f6a33fe60629",
+          "date": "13/10/2023",
+          "commentId": "1fc21b04-fc83-4c02-a2e7-befd54ff3984"
+        }
+      ]
+    },
+    {
+      "id": 507089,
+      "userComments": []
+    },
+    {
+      "id": 299054,
+      "userComments": [
+        {
+          "name": "test",
+          "comment": "test",
+          "userId": "cd2ec69f-fd21-4597-ad6f-f6a33fe60629",
+          "date": "14/10/2023",
+          "commentId": "f894b9a1-bc6f-4480-b5b5-2d7cac0977fa"
+        }
+      ]
     }
   ]
 }
